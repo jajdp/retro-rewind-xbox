@@ -1,0 +1,30 @@
+# WiiCompiled — configuración para la Xbox Series X (UWP).
+# Va en LocalState\WiiCompiled\Config.toml del paquete. Las rutas relativas se resuelven
+# respecto a esta carpeta, así que ../GameAssets/DATA = LocalState\GameAssets\DATA.
+
+[paths]
+dvd_root = "../GameAssets/DATA"
+
+[video]
+resolution_multiplier = 0
+
+# Mapeo de botones tal cual se usaba en la PC (UserData\Config.toml del 2026-09-09).
+# Los nombres son los genéricos de SDL (south = A, east = B, west = X, north = Y),
+# así que con el mando de Xbox se aplican sin cambios.
+[controller]
+a = "south"
+b = "east"
+x = "west"
+y = "north"
+start = "start"
+z = "back"
+l = "unmapped"
+r = "right_shoulder"
+up = "dpad_up,left_shoulder"
+down = "dpad_down"
+left = "dpad_left"
+right = "dpad_right"
+expr_1_triggers_l = "`Trigger R` > 0.2"
+
+[audio]
+volume = 0.06

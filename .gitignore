@@ -1,0 +1,71 @@
+# Nothing that belongs to the game, to the mod or to Wiicompiled ever goes in here.
+
+# discs and dumps
+*.iso
+*.wbfs
+*.rvz
+*.ciso
+*.nkit
+*.wia
+
+# the mod's own payload and the game's files
+RetroRewind6/
+*.pul
+*.szs
+*.brres
+*.bmg
+*.carc
+
+# build output
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.pdb
+*.msix
+*.appx
+*.rsp
+obj/
+obj-deps/
+build/
+contenido/
+
+# signing certificates: yours is yours
+*.pfx
+*.p12
+*.cer
+*.snk
+
+# saves and logs
+*.sav
+*.raw
+*.gci
+*.log
+uwp-console.txt
+uwp-sonda.txt
+
+# Wiicompiled's own tree, in case this is cloned next to it
+port/
+Install/
+generated/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# editors and OS
+.vs/
+.vscode/
+.idea/
+*.swp
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# The package tiles are supplied by whoever packages (docs/ASSETS.md).
+package/Assets/*.png
