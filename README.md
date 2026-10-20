@@ -1,7 +1,7 @@
 # Mario Kart Wii and Retro Rewind on Xbox — the UWP port
 
 How to take what **Wiicompiled** produces from your own *Mario Kart Wii* disc — a native
-executable, not an emulator — and run it **on an Xbox Series in Developer Mode**, as a UWP package
+executable, not an emulator — and run it **on an Xbox Series X in Developer Mode**, as a UWP package
 you build and sign yourself. With or without
 [Retro Rewind](https://github.com/RetroRewind-Team), the fan track and character distribution.
 
@@ -9,6 +9,16 @@ you build and sign yourself. With or without
 
 It is not a theory: both products boot, draw, play sound and take controller input on the console at
 **58 FPS**, with their saves in the package's `LocalState`.
+
+## Which console this was tested on
+
+**An Xbox Series X**, in Developer Mode. Both of the consoles this was built and tested on are Series X,
+so that is the only hardware anything claimed here covers.
+
+**A Series S has never been tried — not once.** It is a different machine: less memory available to a
+game and a weaker GPU. This may work on one, it may run slower, or it may not start at all; nothing here
+has been measured on it. If you run it on a Series S, what you get is not what this README reports, and
+none of the numbers here are a promise about that console.
 
 ## What this repository is
 
